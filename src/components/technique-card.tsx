@@ -14,7 +14,7 @@ interface TechniqueCardProps {
 export function TechniqueCard({ technique, onClick }: TechniqueCardProps) {
   return (
     <Card
-      className="cursor-pointer transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 group bg-card/50 backdrop-blur-sm"
+      className="cursor-pointer transition-all duration-300 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/10 group bg-card/50 backdrop-blur-xs"
       onClick={onClick}
     >
       <CardHeader className="pb-3">

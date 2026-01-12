@@ -48,7 +48,7 @@ export function AttackBrowser({ techniques, tactics }: AttackBrowserProps) {
               <Shield className="h-6 w-6 text-primary" />
             </div>
             <div>
-              <h1 className="text-xl font-bold bg-gradient-to-r from-cyber-blue to-cyber-purple bg-clip-text text-transparent">
+              <h1 className="text-xl font-bold bg-linear-to-r from-cyber-blue to-cyber-purple bg-clip-text text-transparent">
                 MITRE ATT&CK Browser
               </h1>
               <p className="text-xs text-muted-foreground">
